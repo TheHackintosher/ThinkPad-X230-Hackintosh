@@ -5,7 +5,7 @@ An EFI to use OpenCore, to run on a Lenovo Thinkpad X230 (on any version of macO
 
 
 
-									#DISABLED
+									# DISABLED
 *Fast Boot
 *Secure Boot
 *Serial/COM Port
@@ -15,9 +15,12 @@ An EFI to use OpenCore, to run on a Lenovo Thinkpad X230 (on any version of macO
 *Thunderbolt (For initial install, as Thunderbolt can cause issues if not setup correctly, if available)
 *Intel SGX
 *Intel Platform Trust
-*CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleCpuPmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled)
-									#ENDABLED	
+*CFG Lock (MSR 0xE2 write protection)(This must be off, if you can't find the option then enable AppleCpuPmCfgLock under Kernel -> Quirks. Your hack will not boot with CFG-Lock
+enabled)
+
+									# ENDABLED	
 *VT-x (Virtualization Support)
+
 *Above 4G decoding
 *Hyper-Threading
 *Execute Disable Bit
