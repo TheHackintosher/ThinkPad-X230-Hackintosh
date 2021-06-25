@@ -3,7 +3,7 @@ An EFI to use OpenCore, to run on a Lenovo Thinkpad X230 (on any version of macO
 
 
 
-
+						#### These are the settings that you have to enable / disable in your BIOS
 
 									# DISABLED
 *Fast Boot
